@@ -1,0 +1,9 @@
+markdown:         rdiscount
+
+baseurl: 
+permalink:        pretty
+
+# Server
+destination:      ./_gh_pages
+exclude:          ["LICENSE", "README.md",]
+port:             9001
