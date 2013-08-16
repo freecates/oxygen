@@ -1,6 +1,6 @@
 markdown:         rdiscount
 
-baseurl: 
+baseurl:          /oxygen-source
 permalink:        pretty
 
 # Server

@@ -1,5 +1,5 @@
 .barcelona-skyline {
-    background: url(/assets/img/banner-barcelona-lg.jpg) repeat-x -20% 0;
+    background: url(../../asets/img/banner-barcelona-lg.jpg) repeat-x -20% 0;
     display:none;
 }
 .barcelona-skyline div {
@@ -41,7 +41,7 @@
     height: 487px;
     left: -122.5px;
     margin: 0;
-    background: url(/assets/img/barcelona-skyline__o-lg.png) no-repeat 0 100%;
+    background: url(../../assets/img/barcelona-skyline__o-lg.png) no-repeat 0 100%;
 }
 .barcelona-skyline .barcelona-skyline__a {
     display: block;
@@ -49,7 +49,7 @@
     left: 0;
     width: 369px;
     height: 487px;
-    background: url(/assets/img/madness__a-lg.png) no-repeat 0 100%;}
+    background: url(../../assets/img/madness__a-lg.png) no-repeat 0 100%;}
 }
 
 @media only screen and (min-width:560px) {
@@ -68,7 +68,7 @@
     left: 0;
     width: 317px;
     height: 487px;
-    background: url(/assets/img/madness__d-lg.png) no-repeat 0 100%;}
+    background: url(../../assets/img/madness__d-lg.png) no-repeat 0 100%;}
 }
 
 
@@ -100,7 +100,7 @@ animation: slide 600s linear infinite;
     left: 0;
     width: 241px;
     height: 487px;
-    background: url(/assets/img/madness__n-lg.png) no-repeat 0 100%;}
+    background: url(../../assets/img/madness__n-lg.png) no-repeat 0 100%;}
 }
 
 @-webkit-keyframes slide{from{background-position:0 0}to{background-position:-10000px 0}}@-moz-keyframes slide{from{background-position:0 0}to{background-position:-10000px 0}}@-ms-keyframes slide{from{background-position:0 0}to{background-position:-10000px 0}}@-o-keyframes slide{from{background-position:0 0}to{background-position:-10000px 0}}@keyframes slide{from{background-position:0 0}to{background-position:-10000px 0}}
@@ -136,7 +136,7 @@ animation: slide 600s linear infinite;
     left: 0;
     width: 279px;
     height: 487px;
-    background: url(/assets/img/madness__e-lg.png) no-repeat 0 100%;}
+    background: url(../../assets/img/madness__e-lg.png) no-repeat 0 100%;}
 }
 
 @media only screen and (min-width:856px) {
@@ -164,7 +164,7 @@ animation: slide 600s linear infinite;
     left: 0;
     width: 270px;
     height: 487px;
-    background: url(/assets/img/madness__s-lg.png) no-repeat 0 100%;}
+    background: url(../../assets/img/madness__s-lg.png) no-repeat 0 100%;}
 }
 
 @media only screen and (min-width:1000px) {
@@ -196,7 +196,7 @@ madness .barcelona-skyline__o {
     left: 0;
     width: 337px;
     height: 487px;
-    background: url(/assets/img/madness__s2-lg.png) no-repeat 0 100%;}
+    background: url(../../assets/img/madness__s2-lg.png) no-repeat 0 100%;}
 }
 
 @media only screen and (min-width:1382px) {
@@ -248,7 +248,7 @@ madness .barcelona-skyline__o {
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi) {
 
 .barcelona-skyline .barcelona-skyline__o {
-    background-image: url(/assets/img/2x/barcelona-skyline__o-lg-2x.png);
+    background-image: url(../../assets/img/2x/barcelona-skyline__o-lg-2x.png);
     -webkit-background-size: 516.75px 365.25px;
     -moz-background-size: 689px 4847x;
     -o-background-size: 516.75px 365.25px;
