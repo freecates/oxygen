@@ -18,12 +18,12 @@ base_url: "../"
       <ul class="breadcrumb">
         <li><a href="{{page.base_url}}">Inici</a></li>
         <li><a href="{{page.base_url}}blog">Blog</a></li>
-        <li class="active">{post.title}</li>
+        <li class="active">{{post.title}}</li>
       </ul>
 
       <div class="row">
         <div class="col-sm-9 col-lg-9 blog-list">
-          <article>
+          <article class="article" role="main">
             {{ content }}
           </article>
 
