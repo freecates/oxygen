@@ -3,6 +3,25 @@ markdown:         rdiscount
 baseurl:          /oxygen
 permalink:        /:title
 
+authors:
+ ramon:
+  name: Ramon Gil
+  display_name: Ramon Gil
+  email: ramongil@ramongil.cat
+  web: http://www.ramongil.cat/
+  twitter: freecates
+ francesc:
+  name: Francesc Vila 
+  display_name: Francesc Vila
+  email: fvila@periodistes.org
+  web: http://www.eixamplecomunicacio.cat/
+  twitter: francescvila
+ gerard:
+  name: Gerard Garcia
+  display_name: Gerard Garcia
+  email: ggarciaporlan@gmail.com
+  twitter: GerardGarcia
+
 # Server
 destination:      ./_gh_pages
 exclude:          ["LICENSE", "README.md",]

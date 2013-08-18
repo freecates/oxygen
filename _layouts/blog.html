@@ -5,6 +5,8 @@ slug: blog
 base_url: "../"
 ---
 
+{% assign author = site.authors[page.author] %}
+
 <main class="ox-masthead" id="content" role="main">
 
   <div class="container">
@@ -18,13 +20,15 @@ base_url: "../"
       <ul class="breadcrumb">
         <li><a href="{{page.base_url}}">Inici</a></li>
         <li><a href="{{page.base_url}}blog">Blog</a></li>
-        <li class="active">{{post.title}}</li>
+        <li class="active">{{page.title}}</li>
       </ul>
 
       <div class="row">
         <div class="col-sm-9 col-lg-9 blog-list">
           <article class="article" role="main">
+            <h4><time datetime="{{ page.date | date: "%Y-%m-%d %H:%M%z" }}">{{ page.date | date: "%d %B, %Y" }}</time> per {{ author.display_name }}</h4>
             {{ content }}
+            }
           </article>
 
         </div>

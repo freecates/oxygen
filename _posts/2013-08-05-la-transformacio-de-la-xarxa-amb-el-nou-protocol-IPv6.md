@@ -9,6 +9,7 @@ categories:
 tag:
 meta: La transformació de la xarxa amb el nou protocol IPv6
 excerpt: Estem davant d’un canvi important a la xarxa que alguns ja han batejat com a una nova revolució per a l’expansió d’Internet.
+author: gerard
 ---
 
 #La transformació de la xarxa amb el nou protocol IPv6
